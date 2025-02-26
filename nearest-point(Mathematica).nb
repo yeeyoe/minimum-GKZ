@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12750,        282]
-NotebookOptionsPosition[     11378,        254]
-NotebookOutlinePosition[     11786,        270]
-CellTagsIndexPosition[     11743,        267]
+NotebookDataLength[     12833,        288]
+NotebookOptionsPosition[     11457,        259]
+NotebookOutlinePosition[     11867,        276]
+CellTagsIndexPosition[     11824,        273]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,14 +23,16 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"x", "=", 
-   RowBox[{"{", 
-    RowBox[{
-    "x1", ",", "x2", ",", "x3", ",", "x4", ",", " ", "x5", ",", " ", "x6", 
-     ",", " ", "x7", ",", " ", "x8", ",", " ", "x9", ",", " ", "x10"}], 
-    "}"}]}], ";", "   ", 
-  RowBox[{"(*", " ", "\:70b9\:7684\:4e2a\:6570", " ", "*)"}], 
-  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"x", "=", 
+    RowBox[{"{", 
+     RowBox[{
+     "x1", ",", "x2", ",", "x3", ",", "x4", ",", " ", "x5", ",", " ", "x6", 
+      ",", " ", "x7", ",", " ", "x8", ",", " ", "x9", ",", " ", "x10"}], 
+     "}"}]}], ";"}], "   ", 
+  RowBox[{
+  "(*", " ", "\:70b9\:7684\:4e2a\:6570", " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"y", "=", 
    RowBox[{"Prepend", "[", 
     RowBox[{"x", ",", "1"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
@@ -41,8 +43,9 @@ Cell[BoxData[{
   RowBox[{"data", "=", 
    RowBox[{"Import", "[", 
     RowBox[{
-    "\"\</Users/mac/Nutstore Files/.symlinks/Nutstore/sag files/equations.txt\
-\>\"", ",", "\"\<Text\>\""}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+    "\"\<C:\\\\Users\\\\MSI\\\\Documents\\\\GitHub\\\\minimal-GKZ\\\\\
+equations.txt\>\"", ",", "\"\<Text\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Ae", "=", 
    RowBox[{"ToExpression", "[", "data", "]"}]}], ";"}], "\[IndentingNewLine]", 
@@ -50,8 +53,8 @@ Cell[BoxData[{
   RowBox[{"data", "=", 
    RowBox[{"Import", "[", 
     RowBox[{
-    "\"\</Users/mac/Nutstore Files/.symlinks/Nutstore/sag \
-files/inequalities.txt\>\"", ",", "\"\<Text\>\""}], "]"}]}], 
+    "\"\<C:\\\\Users\\\\MSI\\\\Documents\\\\GitHub\\\\minimal-GKZ\\\\\
+inequalities.txt\>\"", ",", "\"\<Text\>\""}], "]"}]}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Ai", "=", 
@@ -115,8 +118,10 @@ files/inequalities.txt\>\"", ",", "\"\<Text\>\""}], "]"}]}],
    3.944552295336286*^9, 3.944552296263183*^9}, {3.9445566171213818`*^9, 
    3.944556626298913*^9}, {3.944817877801839*^9, 3.94481788864746*^9}, {
    3.9448200252777863`*^9, 3.9448200438880997`*^9}, {3.9448200750056887`*^9, 
-   3.9448201170502167`*^9}, {3.945773386528351*^9, 3.9457733874670362`*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"c1244218-f5f4-4a86-86e6-61812896224c"],
+   3.9448201170502167`*^9}, {3.945773386528351*^9, 3.9457733874670362`*^9}, {
+   3.949528245966922*^9, 
+   3.9495283154153795`*^9}},ExpressionUUID->"c1244218-f5f4-4a86-86e6-\
+61812896224c"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -252,9 +257,10 @@ Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.944042251128537*^9, 3.9440422511295967`*^9}},
  CellLabel->"In[17]:=",ExpressionUUID->"f8e35fd5-f830-44fe-9239-b43d37376776"]
 },
-WindowSize->{1080, 680},
-WindowMargins->{{Automatic, 224}, {Automatic, 124}},
-FrontEndVersion->"13.0 for Mac OS X ARM (64-bit) (2021\:5e7412\:67082\:65e5)",
+WindowSize->{1080, 641},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (2020\:5e746\:67089\
+\:65e5)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"3c92bfd5-327d-4609-bd87-07c543d7e18e"
 ]
@@ -270,20 +276,20 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 4801, 96, 454, "Input",ExpressionUUID->"c1244218-f5f4-4a86-86e6-61812896224c"],
-Cell[5384, 120, 1509, 35, 50, "Output",ExpressionUUID->"ae5ce5d1-0448-42b0-98b7-ac1c5c783794"],
-Cell[6896, 157, 1401, 25, 56, "Output",ExpressionUUID->"3dd71686-e83c-4d2e-b265-e4c34e9a21ba"]
+Cell[580, 22, 4880, 101, 446, "Input",ExpressionUUID->"c1244218-f5f4-4a86-86e6-61812896224c"],
+Cell[5463, 125, 1509, 35, 48, "Output",ExpressionUUID->"ae5ce5d1-0448-42b0-98b7-ac1c5c783794"],
+Cell[6975, 162, 1401, 25, 52, "Output",ExpressionUUID->"3dd71686-e83c-4d2e-b265-e4c34e9a21ba"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8334, 187, 564, 11, 44, "Input",ExpressionUUID->"cc678968-7756-49fc-80e0-b6fb4ae3d7e5"],
-Cell[8901, 200, 1079, 22, 73, "Output",ExpressionUUID->"6dda7cca-5ef8-4648-92d6-d8ff8e9e3d54"]
+Cell[8413, 192, 564, 11, 44, "Input",ExpressionUUID->"cc678968-7756-49fc-80e0-b6fb4ae3d7e5"],
+Cell[8980, 205, 1079, 22, 48, "Output",ExpressionUUID->"6dda7cca-5ef8-4648-92d6-d8ff8e9e3d54"]
 }, Open  ]],
-Cell[9995, 225, 173, 2, 30, "Input",ExpressionUUID->"9c0d0e3a-5383-44ac-a2a2-ecfa937ce041"],
-Cell[10171, 229, 377, 5, 94, "Input",ExpressionUUID->"e3149af8-2a9d-4946-b2ec-200ad9a446c4"],
-Cell[10551, 236, 171, 2, 30, "Input",ExpressionUUID->"95712b89-081d-461b-afeb-e00a312c4555"],
-Cell[10725, 240, 247, 3, 30, "Input",ExpressionUUID->"92812fe1-0056-408c-af51-4ffa9571c247"],
-Cell[10975, 245, 223, 3, 30, "Input",ExpressionUUID->"e76f44b8-8a29-4280-93e3-ae054fcd0223"],
-Cell[11201, 250, 173, 2, 30, "Input",ExpressionUUID->"f8e35fd5-f830-44fe-9239-b43d37376776"]
+Cell[10074, 230, 173, 2, 28, "Input",ExpressionUUID->"9c0d0e3a-5383-44ac-a2a2-ecfa937ce041"],
+Cell[10250, 234, 377, 5, 87, "Input",ExpressionUUID->"e3149af8-2a9d-4946-b2ec-200ad9a446c4"],
+Cell[10630, 241, 171, 2, 28, "Input",ExpressionUUID->"95712b89-081d-461b-afeb-e00a312c4555"],
+Cell[10804, 245, 247, 3, 28, "Input",ExpressionUUID->"92812fe1-0056-408c-af51-4ffa9571c247"],
+Cell[11054, 250, 223, 3, 28, "Input",ExpressionUUID->"e76f44b8-8a29-4280-93e3-ae054fcd0223"],
+Cell[11280, 255, 173, 2, 28, "Input",ExpressionUUID->"f8e35fd5-f830-44fe-9239-b43d37376776"]
 }
 ]
 *)
